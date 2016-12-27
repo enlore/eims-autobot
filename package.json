@@ -1,0 +1,10 @@
+{
+  "name": "autobot",
+  "description": "Simple object for transforming data structures",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "engines": {
+      "node": "^4.0.0"
+  }
+}
