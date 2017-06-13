@@ -2,6 +2,7 @@
 'use strict'
 
 class AutoBot {
+    // TODO no dupe keys flag/warning
     constructor () {
         this.transforms = {}
     }
