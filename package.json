@@ -1,7 +1,11 @@
 {
+  "version": "1.0.0",
   "name": "eims-autobot",
   "description": "Simple object for transforming data structures",
-  "version": "1.0.0",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/enlore/eims-autobot"
+  },
   "main": "index.js",
   "license": "MIT",
   "engines": {
