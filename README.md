@@ -2,6 +2,10 @@
 
 > A member of the EIMS family of utilties
 
+Define a set of transform functions that consume properties on an imcoming
+object and transform their keys/values however you like, ultimately compiling
+a new object coming out the other end.
+
 ## Usage Example
 
     let autobot = new AutoBot()
