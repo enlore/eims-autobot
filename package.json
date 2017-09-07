@@ -10,5 +10,8 @@
   "license": "MIT",
   "engines": {
     "node": "^6.9.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
   }
 }
