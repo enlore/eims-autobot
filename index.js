@@ -1,6 +1,8 @@
 /* jshint node: true, asi: true, laxcomma: true, esversion: 6 */
 'use strict'
 
+const _ = require('lodash')
+
 class AutoBot {
     // TODO no dupe keys flag/warning
     constructor () {
@@ -28,7 +30,7 @@ class AutoBot {
                 // thus the new object is composed of the correct key names with
                 // data extracted from old key names
                 let res = transform(entity, key, entity[key])
-                Object.assign(newEntity, res)
+                _.merge(newEntity, res)
             }
         }
 
